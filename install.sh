@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo wget https://raw.githubusercontent.com/mutousix/mutousix/main/node_exporter-1.6.0.linux-amd64.tar.gz
+sudo wget https://github.com/mutousix/mutousix/raw/main/node_exporter-1.6.0.linux-amd64.tar.gz
 sudo tar -zxvf node_exporter-1.6.0.linux-amd64.tar.gz
 sudo cp node_exporter-1.6.0.linux-amd64/node_exporter /usr/local/bin/
 sudo cp -r node_exporter.service /etc/systemd/system/
