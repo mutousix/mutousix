@@ -1,5 +1,6 @@
+#!/bin/sh
 wget https://github.com/prometheus/node_exporter/releases/download/v1.6.0/node_exporter-1.6.0.linux-amd64.tar.gz
-tar -zxvf node_exporter-1.6.0.linux-amd64.tar.gz 
+tar -zxvf node_exporter-1.6.0.linux-amd64.tar.gz
 sudo cp node_exporter-1.6.0.linux-amd64/node_exporter /usr/local/bin/
 wget https://github.com/mutousix/mutousix/blob/main/node_exporter.service
 sudo cp -r node_exporter.service /etc/systemd/system/node_exporter.service
