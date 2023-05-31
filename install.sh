@@ -8,5 +8,4 @@ sudo chown node_exporter:node_exporter /usr/local/bin/node_exporter
 sudo systemctl daemon-reload
 sudo systemctl start node_exporter
 sudo systemctl enable node_exporter
-sudo systemctl status node_exporter
 sudo systemctl stop firewalld 
